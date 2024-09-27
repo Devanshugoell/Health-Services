@@ -1,0 +1,42 @@
+td {
+  padding: 12px 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
+}
+thead tr td {
+  background: #39f4466e;
+  font-weight: bold;
+  width: 25%;
+}
+
+tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+table tbody tr:last-of-type {
+  border-bottom: 2px solid #39f4466e;
+}
+
+tr:nth-of-type(even) {
+  background: #39f4466e;
+}
+
+.edit,
+.delete {
+  padding: 10px 20px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.edit {
+  background: #00ae6c;
+  border-radius: 10%;
+}
+.delete {
+  margin-top: 2%;
+  background: #ff0000;
+  border-radius: 10%;
+}
