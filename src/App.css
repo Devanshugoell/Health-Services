@@ -25,6 +25,8 @@ tr:nth-of-type(even) {
 }
 
 .edit,
+.save,
+.clear,
 .delete {
   padding: 10px 20px;
   background: transparent;
@@ -39,4 +41,22 @@ tr:nth-of-type(even) {
   margin-top: 2%;
   background: #ff0000;
   border-radius: 10%;
+}
+
+.clear {
+  background: #26ff00;
+  border-radius: 10%;
+}
+
+.save {
+  background: #ff8000;
+  border-radius: 10%;
+  margin: 10px;
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
 }
