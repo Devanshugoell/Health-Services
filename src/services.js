@@ -1,4 +1,4 @@
-export const data = [
+export const Services = [
   {
     id: 1,
     name: "General Consultation",
